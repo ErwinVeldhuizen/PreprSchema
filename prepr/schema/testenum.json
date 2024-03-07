@@ -1,10 +1,6 @@
 {
     "body": "Test Enum",
-    "body_plural": null,
     "body_singular": "TestEnum",
-    "commenting": true,
-    "description": null,
-    "engagement_insights": true,
     "enum": [
         {
             "display": "12",
@@ -22,12 +18,5 @@
     "fields": null,
     "label": "ContentModel",
     "ref": "0ae823f3-b1e9-461f-a7ae-293b0d81d223",
-    "scheduling": true,
-    "seo_score": true,
-    "single_instance": false,
-    "slug": null,
-    "slug_postfix": true,
-    "type": "enum",
-    "versioning": true,
-    "workflow": true
+    "type": "enum"
 }
