@@ -1,0 +1,16 @@
+{
+    "body": "erfdg",
+    "body_singular": "Erfdg",
+    "fields": null,
+    "label": "ContentModel",
+    "ref": "653ca400-6e16-4d99-8013-d105ad2915a3",
+    "remote_source_active": true,
+    "remote_source_button_text": "wer",
+    "remote_source_domains": null,
+    "remote_source_headers": null,
+    "remote_source_icon": "far fa-00",
+    "remote_source_last_sync": 0,
+    "remote_source_sync": true,
+    "remote_source_url": "https:\/\/openai.prepr.it\/api\/fake_remote_source",
+    "type": "remote_source"
+}

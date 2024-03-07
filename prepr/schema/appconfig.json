@@ -1,0 +1,20 @@
+{
+    "body": "Config",
+    "body_plural": "TEstSingleItemModels",
+    "body_singular": "AppConfig",
+    "commenting": true,
+    "description": "For general front-end app configuration.",
+    "engagement_insights": true,
+    "fields": null,
+    "label": "ContentModel",
+    "ref": "5c4c2d8e-4dda-474a-b6e0-288b3015d2c5",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": false,
+    "single_instance": true,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

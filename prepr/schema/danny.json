@@ -1,0 +1,70 @@
+{
+    "api_id": "Danny",
+    "body": "Danny",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "a_b_testing": false,
+            "api_id": "stackie",
+            "body": "Stackie",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": false,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "ACT1889UniqueValue",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "bbfc93af-4aea-48de-89e7-8605b20c57fe"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESTheFreeze",
+                    "label": "ContentModel",
+                    "position": 2,
+                    "ref": "b2858aa4-a018-4725-bdab-54492aff164b"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESDavy",
+                    "label": "ContentModel",
+                    "position": 3,
+                    "ref": "07ab3e44-3b0f-4e73-9693-9d4f155d93b7"
+                }
+            ]
+        }
+    ],
+    "icon": "fab fa-500px",
+    "label": "Component",
+    "ref": "d544c2fe-24ed-4b20-b7e3-4fcd93044e32"
+}

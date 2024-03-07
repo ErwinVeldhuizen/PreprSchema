@@ -1,0 +1,94 @@
+{
+    "body": "Kevin Test",
+    "body_plural": "KevinTests",
+    "body_singular": "KevinTest",
+    "commenting": true,
+    "description": null,
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept": [
+                "heading",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment"
+            ],
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "html_editor",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "file"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "doc",
+            "body": "doc",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "99",
+            "min": "0",
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": true,
+            "allow_caption": false,
+            "api_id": "image",
+            "body": "image",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "99",
+            "min": "0",
+            "presets": [
+                {
+                    "height": "1000",
+                    "name": "Test",
+                    "width": "1000"
+                }
+            ],
+            "presets_change_required": true,
+            "required": false,
+            "type": "Asset"
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "afb45051-31b0-4e45-8d8a-992342ad5b0a",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": false,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

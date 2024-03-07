@@ -1,0 +1,145 @@
+{
+    "api_id": "CTA",
+    "body": "CTA",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "appearance": "2",
+            "body": "Columns",
+            "image": null,
+            "type": "Column"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "url",
+            "appearance": "single_line",
+            "body": "URL",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "api_id": "reference",
+            "appearance": null,
+            "body": "Reference",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "group": false,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESDanny",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "dc935818-5c76-4004-bdaf-d6b319af40f1"
+                }
+            ]
+        },
+        {
+            "appearance": "3",
+            "body": "Columns",
+            "image": null,
+            "type": "Column"
+        },
+        {
+            "api_id": "type",
+            "body": "Type",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "options": [
+                {
+                    "display": "One",
+                    "value": "One"
+                },
+                {
+                    "display": "Two",
+                    "value": "Two"
+                }
+            ],
+            "required": false,
+            "type": "List"
+        },
+        {
+            "api_id": "size",
+            "body": "Size",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "options": [
+                {
+                    "display": "One",
+                    "value": "One"
+                },
+                {
+                    "display": "Two",
+                    "value": "Two"
+                },
+                {
+                    "display": "Three",
+                    "value": "Three"
+                }
+            ],
+            "required": false,
+            "type": "List"
+        },
+        {
+            "api_id": "open",
+            "body": "Open?",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "Boolean"
+        }
+    ],
+    "icon": "fas fa-abacus",
+    "label": "Component",
+    "ref": "9d79cf9e-b173-4f35-9711-4c1e9f7cf36b"
+}

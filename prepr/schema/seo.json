@@ -64,21 +64,6 @@
             "presets_change_required": true,
             "required": false,
             "type": "Asset"
-        },
-        {
-            "api_id": "list_nested",
-            "body": "List nested",
-            "component": {
-                "api_id": "RecipeComponent",
-                "label": "Component",
-                "ref": "d60ed1c4-621f-4eae-97df-20f4f03f2d22"
-            },
-            "description": null,
-            "disable_editing": false,
-            "field_state": null,
-            "image": null,
-            "required": false,
-            "type": "Component"
         }
     ],
     "icon": "fas fa-magnifying-glass",

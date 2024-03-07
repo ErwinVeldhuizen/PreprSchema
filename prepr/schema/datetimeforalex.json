@@ -1,0 +1,287 @@
+{
+    "body": "Date Time for Alex",
+    "body_plural": "DateTimeForAlexs",
+    "body_singular": "DateTimeForAlex",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "appearance": "open",
+            "body": "Fields",
+            "description": null,
+            "image": null,
+            "type": "Divider"
+        },
+        {
+            "api_id": "date_field",
+            "appearance": "date",
+            "body": "Date field",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d",
+            "image": null,
+            "required": false,
+            "type": "DateTime"
+        },
+        {
+            "api_id": "date_fields",
+            "appearance": "date",
+            "body": "Date fields",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d",
+            "image": null,
+            "multiple": "1",
+            "required": false,
+            "type": "DateTime"
+        },
+        {
+            "api_id": "date_time_field",
+            "appearance": "datetime",
+            "body": "Date time field",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d H:i:s",
+            "image": null,
+            "required": false,
+            "type": "DateTime"
+        },
+        {
+            "api_id": "date_time_fields",
+            "appearance": "datetime",
+            "body": "Date time fields",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d H:i:s",
+            "image": null,
+            "multiple": "1",
+            "required": false,
+            "type": "DateTime"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "date_range_field",
+            "appearance": "date",
+            "body": "Date range field",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d",
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "DateTimeRange"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "date_range_fields",
+            "appearance": "date",
+            "body": "Date range fields",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d",
+            "image": null,
+            "multiple": "1",
+            "openai_options": "null",
+            "required": false,
+            "type": "DateTimeRange"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "date_time_range",
+            "appearance": "datetime",
+            "body": "Date time range field",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d H:i:s",
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "DateTimeRange"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "date_time_range_fields",
+            "appearance": "datetime",
+            "body": "Date time range fields",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "format": "Y-m-d H:i:s",
+            "image": null,
+            "multiple": "1",
+            "openai_options": "null",
+            "required": false,
+            "type": "DateTimeRange"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "business_hours",
+            "appearance": null,
+            "body": "Business hours",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "BusinessHours"
+        },
+        {
+            "appearance": "open",
+            "body": "Component",
+            "description": null,
+            "image": null,
+            "type": "Divider"
+        },
+        {
+            "api_id": "comp_date",
+            "body": "comp_date",
+            "component": {
+                "api_id": "PR5475MetDate",
+                "label": "Component",
+                "ref": "dfe59c92-98be-4a09-94fb-8c1dea882026"
+            },
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Component"
+        },
+        {
+            "appearance": "open",
+            "body": "Dynamic Content Field",
+            "description": null,
+            "image": null,
+            "type": "Divider"
+        },
+        {
+            "accept": [],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "dcf",
+            "body": "DCF",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "openai_options": {
+                "translate": "1"
+            },
+            "presets_change_required": false,
+            "required": false,
+            "type": "ElementBox",
+            "types": [
+                {
+                    "api_id": "PR5475MetDate",
+                    "label": "Component",
+                    "ref": "dfe59c92-98be-4a09-94fb-8c1dea882026"
+                }
+            ]
+        },
+        {
+            "appearance": "open",
+            "body": "Subcomponent",
+            "description": null,
+            "image": null,
+            "type": "Divider"
+        },
+        {
+            "api_id": "losse_component",
+            "body": "Losse component",
+            "component": {
+                "api_id": "PR5475MetDate",
+                "label": "Component",
+                "ref": "dfe59c92-98be-4a09-94fb-8c1dea882026"
+            },
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Component"
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "PR5475MetDate",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "dfe59c92-98be-4a09-94fb-8c1dea882026"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "PR5475Subcomponent",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "dc2a242e-a903-439d-b66b-976a9e38a049"
+                }
+            ]
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "1dfdc1d4-e34b-4d9f-a841-bc9fbde2a9db",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

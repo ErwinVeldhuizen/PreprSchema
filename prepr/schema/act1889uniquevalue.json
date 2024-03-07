@@ -1,0 +1,162 @@
+{
+    "body": "ACT-1889 unique value",
+    "body_plural": "ACT1889UniqueValues",
+    "body_singular": "ACT1889UniqueValue",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "mediahub_id",
+            "appearance": "single_line",
+            "body": "mediahub_id",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": true,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": true
+        },
+        {
+            "api_id": "mediahub_int",
+            "body": "mediahub_int",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "Integer",
+            "unique": true
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "mediahub_float",
+            "appearance": null,
+            "body": "mediahub_float",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "Float",
+            "unique": true
+        },
+        {
+            "appearance": "4",
+            "body": "Columns",
+            "image": null,
+            "type": "Column"
+        },
+        {
+            "api_id": "dwewsf",
+            "appearance": "modal",
+            "body": "dwewsf",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "group": false,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESDanny",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "dc935818-5c76-4004-bdaf-d6b319af40f1"
+                }
+            ]
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "dewf",
+            "body": "dewf",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "DINGESTheFreeze",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "b2858aa4-a018-4725-bdab-54492aff164b"
+                }
+            ]
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "STACK",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ArticleCollection",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "70f7ba86-8f83-410d-97d3-e9c4d15011fd"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "Danny",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "d544c2fe-24ed-4b20-b7e3-4fcd93044e32"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "CTA",
+                    "label": "Component",
+                    "position": 3,
+                    "ref": "9d79cf9e-b173-4f35-9711-4c1e9f7cf36b"
+                }
+            ]
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "bbfc93af-4aea-48de-89e7-8605b20c57fe",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

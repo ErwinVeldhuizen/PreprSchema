@@ -1,0 +1,91 @@
+{
+    "api_id": "ImageAndText",
+    "body": "Image and text",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": true,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "text",
+            "appearance": "textarea",
+            "body": "Text",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "image",
+            "body": "Image",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1",
+            "min": "0",
+            "presets_change_required": false,
+            "required": true,
+            "type": "Asset"
+        },
+        {
+            "api_id": "image_position",
+            "body": "Image position",
+            "default_value": "Left",
+            "description": "The image position in relation to the text.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "options": [
+                {
+                    "display": "Left",
+                    "value": "Left"
+                },
+                {
+                    "display": "Right",
+                    "value": "Right"
+                },
+                {
+                    "display": "Top",
+                    "value": "Top"
+                },
+                {
+                    "display": "Bottom",
+                    "value": "Bottom"
+                }
+            ],
+            "required": false,
+            "type": "List"
+        }
+    ],
+    "icon": "fas fa-address-card",
+    "label": "Component",
+    "ref": "26714648-9daa-4722-9447-f8503519d1c1"
+}

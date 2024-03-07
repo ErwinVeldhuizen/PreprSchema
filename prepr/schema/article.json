@@ -1,0 +1,156 @@
+{
+    "body": "Article",
+    "body_plural": "Articles",
+    "body_singular": "Article",
+    "commenting": true,
+    "description": "For blog posts, article pages or press sections.",
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "titledieandersis",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": true,
+            "seo_description": null,
+            "seo_title": null,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "body": "Slug",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Slug"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "cover",
+            "body": "Cover Image",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1",
+            "min": "1",
+            "presets": [
+                {
+                    "height": "9",
+                    "name": "16:9",
+                    "width": "16"
+                },
+                {
+                    "height": "1",
+                    "name": "1:1",
+                    "width": "1"
+                }
+            ],
+            "presets_change_required": false,
+            "required": true,
+            "type": "Asset"
+        },
+        {
+            "accept": [
+                "bold",
+                "italic",
+                "underline"
+            ],
+            "accept_restrictions": null,
+            "api_id": "excerpt",
+            "appearance": "html_editor",
+            "body": "Excerpt",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": true,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "appearance": "closed",
+            "body": "SEO",
+            "description": "Information used for SEO and Social media",
+            "image": null,
+            "type": "Divider"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "email",
+            "appearance": "single_line",
+            "body": "Email",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "regex": "([-!#-'*+\\\/-9=?A-Z^-~]+(\\.[-!#-'*+\\\/-9=?A-Z^-~]+)*|\"([]!#-[^-~   ]|(\\[   -~]))+\")@([0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?(\\.[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?)*|\\[((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])(\\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])){3}|IPv6:((((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){6}|::((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){5}|[0-9A-Fa-f]{0,4}::((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){4}|(((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):)?(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}))?::((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){3}|(((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){0,2}(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}))?::((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){2}|(((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){0,3}(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}))?::(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):|(((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){0,4}(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}))?::)((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3})|(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])(\\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])){3})|(((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){0,5}(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}))?::(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3})|(((0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}):){0,6}(0|[1-9A-Fa-f][0-9A-Fa-f]{0,3}))?::)|(?!IPv6:)[0-9A-Za-z-]*[0-9A-Za-z]:[!-Z^-~]+)])",
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "api_id": "shop",
+            "body": "SHOP",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "remote_source": {
+                "body_singular": "OpenAIFakeRemoteSource",
+                "label": "ContentModel",
+                "ref": "c6a73832-2648-475f-9cd7-315a7a7667bb"
+            },
+            "required": false,
+            "type": "ContentIntegration"
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "a96b2479-fa97-4e48-8d37-52e0288029d0",
+    "review_urls": [
+        {
+            "body": "Prod",
+            "url": "google.nl\/prod"
+        },
+        {
+            "body": "Acc",
+            "url": "google.nl\/acc"
+        }
+    ],
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": "{title}",
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}
