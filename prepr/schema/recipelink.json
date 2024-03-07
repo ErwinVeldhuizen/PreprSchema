@@ -30,10 +30,10 @@
         },
         {
             "accept_restrictions": null,
-            "api_id": "weekdays",
+            "api_id": "week",
             "appearance": null,
-            "body": "Weekdays",
-            "default_value": "Tuesday",
+            "body": "Week",
+            "default_value": "Tu",
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",

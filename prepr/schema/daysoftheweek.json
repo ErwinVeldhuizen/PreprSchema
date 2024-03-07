@@ -1,23 +1,27 @@
 {
-    "body": "Weekdays",
+    "body": "Days of the week",
     "body_plural": null,
-    "body_singular": "Weekdays",
+    "body_singular": "DaysOfTheWeek",
     "commenting": true,
-    "description": "Dit zijn de dagen van de week",
+    "description": null,
     "engagement_insights": true,
     "enum": [
         {
             "display": "Monday",
-            "value": "Monday"
+            "value": "Mo"
         },
         {
             "display": "Tuesday",
-            "value": "Tuesday"
+            "value": "Tu"
+        },
+        {
+            "display": "Wednesday",
+            "value": "We"
         }
     ],
     "fields": null,
     "label": "ContentModel",
-    "ref": "086fb393-8303-4cf4-8332-959853fd051f",
+    "ref": "199db452-eaca-4801-acce-984d1d93e9f2",
     "scheduling": true,
     "seo_score": true,
     "single_instance": false,

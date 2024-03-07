@@ -1,0 +1,87 @@
+{
+    "api_id": "SEO",
+    "body": "SEO",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Meta title",
+            "description": "The title that the front end will use for SEO and social media.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "60",
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "description",
+            "appearance": "single_line",
+            "body": "Meta description",
+            "description": "Used by the front end for SEO and Social media",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "165",
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "file",
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "social_media_image",
+            "body": "Social media image",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1",
+            "min": "1",
+            "presets": [
+                {
+                    "height": "400",
+                    "name": "Square",
+                    "width": "400"
+                }
+            ],
+            "presets_change_required": true,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "api_id": "list_nested",
+            "body": "List nested",
+            "component": {
+                "api_id": "RecipeComponent",
+                "label": "Component",
+                "ref": "d60ed1c4-621f-4eae-97df-20f4f03f2d22"
+            },
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Component"
+        }
+    ],
+    "icon": "fas fa-magnifying-glass",
+    "label": "Component",
+    "ref": "5eb8ccde-2057-4a75-9758-03e3b4bad53d"
+}
