@@ -1,0 +1,34 @@
+{
+    "api_id": "RecipeComponent",
+    "body": "Recipe Component",
+    "description": null,
+    "fields": [
+        {
+            "a_b_testing": false,
+            "api_id": "button",
+            "body": "Recipe list",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": false,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "RecipeLink",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "c632197e-4d9c-4010-8d14-07567275d233"
+                }
+            ]
+        }
+    ],
+    "icon": "fas fa-glass-citrus",
+    "label": "Component",
+    "ref": "d60ed1c4-621f-4eae-97df-20f4f03f2d22"
+}

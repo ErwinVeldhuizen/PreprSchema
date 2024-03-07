@@ -1,0 +1,117 @@
+{
+    "body": "Page",
+    "body_plural": "Pages",
+    "body_singular": "Page",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "body": "Slug",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "required": false,
+            "type": "Slug"
+        },
+        {
+            "accept": [
+                "Heading",
+                "H1",
+                "H2",
+                "H3",
+                "H4",
+                "H5",
+                "H6",
+                "Paragraph",
+                "TextArea",
+                "Html",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment",
+                "Code",
+                "Asset",
+                "Photo",
+                "Video",
+                "Audio",
+                "Document",
+                "TwitterPost",
+                "InstagramPost",
+                "FacebookPost",
+                "YouTubePost",
+                "VimeoPost",
+                "TikTokPost",
+                "SpotifyPlaylist",
+                "SoundCloudPost",
+                "ApplePodcast",
+                "Coordinates"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "dynamic_content",
+            "body": "Content",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "openai_options": {
+                "translate": "1"
+            },
+            "presets_change_required": false,
+            "required": false,
+            "type": "ElementBox",
+            "types": [
+                {
+                    "api_id": "RecipeLink",
+                    "label": "Component",
+                    "ref": "c632197e-4d9c-4010-8d14-07567275d233"
+                },
+                {
+                    "api_id": "RecipeComponent",
+                    "label": "Component",
+                    "ref": "d60ed1c4-621f-4eae-97df-20f4f03f2d22"
+                }
+            ]
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "1c68e69f-b479-43e9-81b3-f47c4bc2a322",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": "{title}",
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}
