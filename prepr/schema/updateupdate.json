@@ -1,7 +1,7 @@
 {
-    "body": "Fotograaf",
-    "body_plural": "Fotograafs",
-    "body_singular": "Fotograaf",
+    "body": "Update Update",
+    "body_plural": "UpdateUpdates",
+    "body_singular": "UpdateUpdate",
     "commenting": false,
     "description": null,
     "engagement_insights": false,
@@ -86,7 +86,7 @@
                 {
                     "allow_group": false,
                     "allow_new": true,
-                    "body_singular": "Fotograaf",
+                    "body_singular": "UpdateUpdate",
                     "label": "ContentModel",
                     "position": 1,
                     "ref": "4cbf6807-7ba3-469d-878e-f5e5b8018690"
