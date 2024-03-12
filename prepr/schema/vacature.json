@@ -92,18 +92,7 @@
             "presets_change_required": false,
             "required": false,
             "type": "ElementBox",
-            "types": [
-                {
-                    "body_singular": "BakingFeed",
-                    "label": "ContentModel",
-                    "ref": "0833da97-c7c3-4bfc-b3ab-89b8df697903"
-                },
-                {
-                    "body_singular": "BakingFilters",
-                    "label": "ContentModel",
-                    "ref": "59d2e9f6-076d-4f37-a5b1-4b54bef78d03"
-                }
-            ]
+            "types": []
         },
         {
             "api_id": "recip",
