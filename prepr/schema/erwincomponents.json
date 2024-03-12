@@ -1,0 +1,286 @@
+{
+    "body": "Erwin Components",
+    "body_plural": "ErwinComponentss",
+    "body_singular": "ErwinComponents",
+    "commenting": true,
+    "description": null,
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": null,
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "body": "Slug",
+            "description": null,
+            "disable_editing": true,
+            "field_state": "read_only",
+            "fieldstate": "read_only",
+            "image": null,
+            "required": false,
+            "type": "Slug"
+        },
+        {
+            "api_id": "number",
+            "body": "Number",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "openai_options": null,
+            "required": false,
+            "type": "Integer",
+            "unique": true
+        },
+        {
+            "appearance": "open",
+            "body": "Section",
+            "description": null,
+            "image": null,
+            "type": "Divider"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "text",
+            "appearance": "single_line",
+            "body": "Text",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "api_id": "sdf",
+            "body": "sdf",
+            "description": "sdfg",
+            "disable_editing": false,
+            "false": "q23werfd",
+            "field_state": null,
+            "image": null,
+            "openai_options": null,
+            "required": false,
+            "true": "2q3w",
+            "type": "Boolean"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "dtae",
+            "appearance": "datetime",
+            "body": "Dtae",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "format": "Y-m-d H:i:s",
+            "image": null,
+            "openai_options": null,
+            "required": false,
+            "type": "DateTimeRange"
+        },
+        {
+            "api_id": "tagas",
+            "appearance": null,
+            "body": "Tagas",
+            "description": "qwer",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "Tags"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "bh",
+            "appearance": null,
+            "body": "BH",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "openai_options": null,
+            "required": false,
+            "type": "BusinessHours"
+        },
+        {
+            "accept": [
+                "photo",
+                "video",
+                "audio",
+                "file"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "allow_multiple": true,
+            "api_id": "assets_in_een_model",
+            "body": "Assets in een Model",
+            "description": "2345",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "5",
+            "min": "0",
+            "presets": [
+                {
+                    "height": "240",
+                    "name": "One",
+                    "width": "500"
+                },
+                {
+                    "height": "353",
+                    "name": "Two",
+                    "width": "352"
+                }
+            ],
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "api_id": "days",
+            "body": "Days",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "options": [
+                {
+                    "display": "Monday",
+                    "value": "Monday"
+                },
+                {
+                    "display": "Tuesday",
+                    "value": "Tuesday"
+                }
+            ],
+            "required": false,
+            "type": "List"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "linelimit",
+            "appearance": "single_line",
+            "body": "LineLimit",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "30",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "arealimit",
+            "appearance": "textarea",
+            "body": "AreaLimit",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "30",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "accept": [
+                "heading",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment"
+            ],
+            "accept_restrictions": null,
+            "api_id": "htmllimit",
+            "appearance": "html_editor",
+            "body": "HTMLLimit",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "30",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text",
+            "unique": false
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": true,
+            "allow_caption": true,
+            "allow_multiple": true,
+            "api_id": "assets",
+            "body": "Assets",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "62c7b1ef-20e3-461e-a386-3e1845db6a25",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": "{title}",
+    "slug_postfix": false,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

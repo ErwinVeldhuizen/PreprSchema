@@ -1,0 +1,14 @@
+{
+    "body": "Newest enum",
+    "body_singular": "NewestEnum",
+    "enum": [
+        {
+            "display": "1234",
+            "value": "1234"
+        }
+    ],
+    "fields": null,
+    "label": "ContentModel",
+    "ref": "6dabee50-c194-4d34-9972-7bdf676a82c8",
+    "type": "enum"
+}

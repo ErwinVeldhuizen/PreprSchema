@@ -1,0 +1,39 @@
+{
+    "body": "[DINGES] - Davy",
+    "body_plural": "DINGESDavys",
+    "body_singular": "DINGESDavy",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "api_id": "remote",
+            "body": "remote",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "remote_source": {
+                "body_singular": "Fake",
+                "label": "ContentModel",
+                "ref": "6edc9283-48ca-4e04-9ac8-0a03f8c02127"
+            },
+            "required": false,
+            "type": "ContentIntegration"
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "b9fe0c39-2136-4698-9d9b-634b2f462742",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": false,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

@@ -1,10 +1,10 @@
 {
     "body": "Category",
-    "body_plural": "Categorys",
+    "body_plural": "Categories",
     "body_singular": "Category",
-    "commenting": false,
+    "commenting": true,
     "description": "Categories for articles, e.g. Health, Seasonal",
-    "engagement_insights": false,
+    "engagement_insights": true,
     "fields": [
         {
             "accept_restrictions": null,
@@ -15,11 +15,10 @@
             "disable_editing": false,
             "field_state": null,
             "image": null,
+            "max": "20",
             "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
-            "required": false,
+            "openai_options": "null",
+            "required": true,
             "seo_description": null,
             "seo_title": true,
             "title": true,
@@ -31,12 +30,30 @@
             "disable_editing": false,
             "field_state": null,
             "image": null,
-            "required": false,
+            "required": true,
             "type": "Slug"
+        },
+        {
+            "accept": [
+                "file"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "icon",
+            "body": "Icon",
+            "description": "The icon that matches the category.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1",
+            "min": "0",
+            "presets_change_required": false,
+            "required": true,
+            "type": "Asset"
         }
     ],
     "label": "ContentModel",
-    "ref": "50c700a0-c2a9-4aff-8fff-c0f6333a42e6",
+    "ref": "b03957bf-a6fd-4126-a6f5-64b995af3d5b",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,
@@ -44,6 +61,6 @@
     "slug": "{title}",
     "slug_postfix": true,
     "type": "model",
-    "versioning": false,
+    "versioning": true,
     "workflow": true
 }

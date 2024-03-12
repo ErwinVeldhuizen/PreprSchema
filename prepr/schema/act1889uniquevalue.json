@@ -1,0 +1,73 @@
+{
+    "body": "ACT-1889 unique value",
+    "body_plural": "ACT1889UniqueValues",
+    "body_singular": "ACT1889UniqueValue",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "mediahub_id",
+            "appearance": "single_line",
+            "body": "mediahub_id",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": true,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": true
+        },
+        {
+            "api_id": "mediahub_int",
+            "body": "mediahub_int",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "Integer",
+            "unique": true
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "mediahub_float",
+            "appearance": null,
+            "body": "mediahub_float",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "openai_options": "null",
+            "required": false,
+            "type": "Float",
+            "unique": true
+        },
+        {
+            "appearance": "4",
+            "body": "Columns",
+            "image": null,
+            "type": "Column"
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "9875cf4a-0582-4996-b414-bb9b9ffeb071",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

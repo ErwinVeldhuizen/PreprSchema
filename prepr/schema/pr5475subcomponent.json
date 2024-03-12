@@ -1,0 +1,45 @@
+{
+    "api_id": "PR5475Subcomponent",
+    "body": "PR5475 Subcomponent",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "api_id": "subcomponent",
+            "body": "Subcomponent",
+            "component": {
+                "api_id": "PR5475MetDate",
+                "label": "Component",
+                "ref": "2c632dd5-5b92-42f2-b688-288f960b4b81"
+            },
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Component"
+        }
+    ],
+    "icon": "far fa-train-subway",
+    "label": "Component",
+    "ref": "6238fd24-c374-43ca-a39b-7cb7120774ea"
+}

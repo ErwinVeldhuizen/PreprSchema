@@ -1,0 +1,31 @@
+{
+    "api_id": "TomTestComponent",
+    "body": "Tom test component",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "ewrgf",
+            "appearance": "single_line",
+            "body": "ewrgf",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "framed": false,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        }
+    ],
+    "icon": "fal fa-00",
+    "label": "Component",
+    "ref": "44f9a28f-7254-44ba-8f0b-62c1f9ee2dbd"
+}

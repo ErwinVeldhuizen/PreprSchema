@@ -52,7 +52,7 @@
                     "body_singular": "Category",
                     "label": "ContentModel",
                     "position": 1,
-                    "ref": "50c700a0-c2a9-4aff-8fff-c0f6333a42e6"
+                    "ref": "b03957bf-a6fd-4126-a6f5-64b995af3d5b"
                 }
             ]
         },
@@ -76,7 +76,7 @@
                     "body_singular": "Person",
                     "label": "ContentModel",
                     "position": 1,
-                    "ref": "1bd4a426-b33f-4d35-bc08-f2015c0659e5"
+                    "ref": "a6418af5-8d90-408c-a65a-3c244fc73087"
                 }
             ]
         },
@@ -175,7 +175,7 @@
             "component": {
                 "api_id": "SEO",
                 "label": "Component",
-                "ref": "e226e87d-3e1a-4f7e-b0bf-2fb1095afede"
+                "ref": "63e7d18f-68ee-46fe-8ed7-0e917ddc8e28"
             },
             "description": null,
             "disable_editing": false,
@@ -186,11 +186,15 @@
         }
     ],
     "label": "ContentModel",
-    "ref": "37283e74-d8b5-4fd8-87ec-81409fc74aa2",
+    "ref": "bdb42bca-1524-42d0-8929-7a6820e92dbd",
     "review_urls": [
         {
-            "body": "View on example site",
-            "url": "https:\/\/patterns.prepr.io\/blog\/{slug}?token={access_token}"
+            "body": "Prod",
+            "url": "google.nl\/prod"
+        },
+        {
+            "body": "Acc",
+            "url": "google.nl\/acc"
         }
     ],
     "scheduling": true,
