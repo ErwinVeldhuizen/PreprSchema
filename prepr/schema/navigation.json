@@ -1,0 +1,71 @@
+{
+    "body": "Navigation",
+    "body_plural": "Navigations",
+    "body_singular": "Navigation",
+    "commenting": true,
+    "description": "For main menus and footer navigation.",
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": true,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "body": "Slug",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Slug"
+        },
+        {
+            "api_id": "menu_items",
+            "appearance": "modal",
+            "body": "Menu items",
+            "description": "Reference to menu items",
+            "disable_editing": false,
+            "field_state": null,
+            "group": false,
+            "image": null,
+            "max": "99",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "MenuItem",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "ae61767c-c278-4020-8b27-755df56565e4"
+                }
+            ]
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "e2452236-f68c-4fbe-a1ba-d6d9e5d23009",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": false,
+    "single_instance": false,
+    "slug": "{title}",
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

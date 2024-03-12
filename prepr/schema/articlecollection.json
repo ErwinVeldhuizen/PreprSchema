@@ -91,12 +91,12 @@
                     "body_singular": "Article",
                     "label": "ContentModel",
                     "position": 1,
-                    "ref": "bdb42bca-1524-42d0-8929-7a6820e92dbd"
+                    "ref": "37283e74-d8b5-4fd8-87ec-81409fc74aa2"
                 }
             ]
         }
     ],
     "icon": "fas fa-newspaper",
     "label": "Component",
-    "ref": "05a80205-1a94-41af-b7e6-327c2c3d565c"
+    "ref": "82867a3a-0d80-4be9-85c0-cca981679444"
 }

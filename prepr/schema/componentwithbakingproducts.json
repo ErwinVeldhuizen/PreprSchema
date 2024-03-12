@@ -1,6 +1,6 @@
 {
-    "api_id": "PR5475Subcomponent",
-    "body": "PR5475 Subcomponent",
+    "api_id": "ComponentWithBakingProducts",
+    "body": "Component with Baking Products",
     "description": null,
     "fields": [
         {
@@ -24,12 +24,25 @@
             "type": "Text"
         },
         {
-            "api_id": "subcomponent",
-            "body": "Subcomponent",
+            "api_id": "baking_feed",
+            "body": "Baking Feed",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentIntegration"
+        },
+        {
+            "api_id": "nested",
+            "body": "Nested",
             "component": {
-                "api_id": "PR5475MetDate",
+                "api_id": "NestedComponentWithBakingProducts",
                 "label": "Component",
-                "ref": "2c632dd5-5b92-42f2-b688-288f960b4b81"
+                "ref": "60e45dfc-89f8-499e-bb92-ad24c1ad3d67"
             },
             "description": null,
             "disable_editing": false,
@@ -39,7 +52,7 @@
             "type": "Component"
         }
     ],
-    "icon": "far fa-train-subway",
+    "icon": "fal fa-salad",
     "label": "Component",
-    "ref": "6238fd24-c374-43ca-a39b-7cb7120774ea"
+    "ref": "12376564-aa7c-43f1-8add-466a5859f249"
 }

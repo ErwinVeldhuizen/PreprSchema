@@ -1,16 +1,16 @@
 {
-    "body": "Fotograaf",
-    "body_plural": "Fotograafs",
-    "body_singular": "Fotograaf",
+    "body": "Menu group",
+    "body_plural": "MenuGroups",
+    "body_singular": "MenuGroup",
     "commenting": false,
     "description": null,
     "engagement_insights": false,
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "name",
+            "api_id": "label",
             "appearance": "single_line",
-            "body": "name",
+            "body": "Label",
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",
@@ -28,50 +28,55 @@
             "unique": false
         },
         {
-            "accept_restrictions": null,
-            "api_id": "description",
-            "appearance": "textarea",
-            "body": "description",
+            "api_id": "type",
+            "body": "Type",
+            "default_value": true,
             "description": null,
             "disable_editing": false,
+            "false": "Group",
             "field_state": "read_write",
             "fieldstate": "read_write",
             "image": null,
-            "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
+            "openai_options": "null",
             "required": false,
-            "seo_description": null,
-            "seo_title": null,
-            "title": null,
-            "type": "Text",
-            "unique": false
+            "true": "Column",
+            "type": "Boolean"
         },
         {
-            "api_id": "lijstje",
-            "body": "Lijstje",
+            "a_b_testing": true,
+            "api_id": "elements",
+            "body": "Elements",
             "description": null,
             "disable_editing": false,
-            "field_state": "read_write",
-            "fieldstate": "read_write",
+            "field_state": null,
             "image": null,
-            "options": [
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
                 {
-                    "display": "One",
-                    "value": "One"
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "MenuGroup",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "573f56fe-cc79-4794-9bd6-f428404673fe"
                 },
                 {
-                    "display": "Two",
-                    "value": "Two"
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Menu",
+                    "label": "ContentModel",
+                    "position": 2,
+                    "ref": "07c53c38-7728-4c0b-aa3f-dc9ee1202df9"
                 }
-            ],
-            "required": false,
-            "type": "List"
+            ]
         }
     ],
     "label": "ContentModel",
-    "ref": "7d2a405b-26ba-4183-a340-3fa3dc3bfed2",
+    "ref": "573f56fe-cc79-4794-9bd6-f428404673fe",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,

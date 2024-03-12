@@ -1,6 +1,6 @@
 {
-    "api_id": "Danny",
-    "body": "Danny",
+    "api_id": "NestedComponentWithBakingProducts",
+    "body": "Nested component with Baking Products",
     "description": null,
     "fields": [
         {
@@ -22,9 +22,22 @@
             "seo_title": null,
             "title": null,
             "type": "Text"
+        },
+        {
+            "api_id": "baking",
+            "body": "Baking",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "required": false,
+            "type": "ContentIntegration"
         }
     ],
-    "icon": "fab fa-500px",
+    "icon": "far fa-address-card",
     "label": "Component",
-    "ref": "dd776e2d-4900-4026-9ee5-4b8638e5a7b6"
+    "ref": "60e45dfc-89f8-499e-bb92-ad24c1ad3d67"
 }

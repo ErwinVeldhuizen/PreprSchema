@@ -1,0 +1,29 @@
+{
+    "api_id": "SectionHowItWorks",
+    "body": "Section - How it works",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        }
+    ],
+    "icon": "fas fa-question",
+    "label": "Component",
+    "ref": "70f5254e-9caf-49e0-b14c-3f07cae82b80"
+}

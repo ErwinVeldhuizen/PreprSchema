@@ -1,9 +1,9 @@
 {
-    "body": "Category",
-    "body_plural": "Categorys",
-    "body_singular": "Category",
+    "body": "Model met een Component+Stack in Stack",
+    "body_plural": "ModelMetEenComponentstackInStacks",
+    "body_singular": "ModelMetEenComponentstackInStack",
     "commenting": false,
-    "description": "Categories for articles, e.g. Health, Seasonal",
+    "description": null,
     "engagement_insights": false,
     "fields": [
         {
@@ -13,7 +13,8 @@
             "body": "Title",
             "description": null,
             "disable_editing": false,
-            "field_state": null,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
             "image": null,
             "no_html": false,
             "openai_options": {
@@ -23,25 +24,41 @@
             "seo_description": null,
             "seo_title": true,
             "title": true,
-            "type": "Text"
+            "type": "Text",
+            "unique": false
         },
         {
-            "body": "Slug",
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
             "description": null,
             "disable_editing": false,
             "field_state": null,
             "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
             "required": false,
-            "type": "Slug"
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ComponentMetStack",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "6943d8e8-27db-4d61-bf33-d43d7a273bcf"
+                }
+            ]
         }
     ],
     "label": "ContentModel",
-    "ref": "50c700a0-c2a9-4aff-8fff-c0f6333a42e6",
+    "ref": "098b321e-b324-4888-be2f-1bd9c023d947",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,
     "single_instance": false,
-    "slug": "{title}",
+    "slug": null,
     "slug_postfix": true,
     "type": "model",
     "versioning": false,

@@ -1,0 +1,64 @@
+{
+    "api_id": "SectionHeader",
+    "body": "Section - Header",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "allow_multiple": false,
+            "api_id": "image",
+            "body": "Image",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "max": "1",
+            "min": "0",
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "api_id": "cta_button",
+            "body": "CTA Button",
+            "component": {
+                "api_id": "CTAButton",
+                "label": "Component",
+                "ref": "fe78f71c-f6bc-4399-9bfa-973c2ed6c1ba"
+            },
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Component"
+        }
+    ],
+    "icon": "fas fa-browser",
+    "label": "Component",
+    "ref": "2bde395d-00cd-4f65-8ba5-26a8670f6f16"
+}

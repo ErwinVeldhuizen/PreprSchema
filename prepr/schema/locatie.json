@@ -1,9 +1,9 @@
 {
-    "body": "Category",
-    "body_plural": "Categorys",
-    "body_singular": "Category",
+    "body": "Locatie",
+    "body_plural": "Locaties",
+    "body_singular": "Locatie",
     "commenting": false,
-    "description": "Categories for articles, e.g. Health, Seasonal",
+    "description": null,
     "engagement_insights": false,
     "fields": [
         {
@@ -13,7 +13,8 @@
             "body": "Title",
             "description": null,
             "disable_editing": false,
-            "field_state": null,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
             "image": null,
             "no_html": false,
             "openai_options": {
@@ -23,25 +24,28 @@
             "seo_description": null,
             "seo_title": true,
             "title": true,
-            "type": "Text"
+            "type": "Text",
+            "unique": false
         },
         {
-            "body": "Slug",
+            "api_id": "location_field",
+            "body": "Location Field",
             "description": null,
             "disable_editing": false,
-            "field_state": null,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
             "image": null,
             "required": false,
-            "type": "Slug"
+            "type": "Coordinates"
         }
     ],
     "label": "ContentModel",
-    "ref": "50c700a0-c2a9-4aff-8fff-c0f6333a42e6",
+    "ref": "aed07077-e236-4639-aba8-f7d5521ff74b",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,
     "single_instance": false,
-    "slug": "{title}",
+    "slug": null,
     "slug_postfix": true,
     "type": "model",
     "versioning": false,

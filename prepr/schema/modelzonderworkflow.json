@@ -1,7 +1,7 @@
 {
-    "body": "ACT-5902 With List",
-    "body_plural": "ACT5902WithLists",
-    "body_singular": "ACT5902WithList",
+    "body": "Model zonder workflow",
+    "body_plural": "ModelZonderWorkflows",
+    "body_singular": "ModelZonderWorkflow",
     "commenting": false,
     "description": null,
     "engagement_insights": false,
@@ -26,38 +26,17 @@
             "title": true,
             "type": "Text",
             "unique": false
-        },
-        {
-            "api_id": "list",
-            "body": "List",
-            "description": null,
-            "disable_editing": false,
-            "field_state": "read_write",
-            "fieldstate": "read_write",
-            "image": null,
-            "options": [
-                {
-                    "display": "One",
-                    "value": "One"
-                },
-                {
-                    "display": "Two",
-                    "value": "Two"
-                }
-            ],
-            "required": false,
-            "type": "List"
         }
     ],
     "label": "ContentModel",
-    "ref": "53e6841c-a25d-455b-87e8-f68e81fc31cb",
+    "ref": "38983f41-d5fc-4adc-bf72-325902ad2f38",
     "review_urls": null,
-    "scheduling": true,
-    "seo_score": true,
+    "scheduling": false,
+    "seo_score": false,
     "single_instance": false,
     "slug": null,
     "slug_postfix": true,
     "type": "model",
     "versioning": false,
-    "workflow": true
+    "workflow": false
 }

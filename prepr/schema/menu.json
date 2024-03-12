@@ -1,16 +1,16 @@
 {
-    "body": "Tom Test Stack",
-    "body_plural": "TomTestStacks",
-    "body_singular": "TomTestStack",
+    "body": "Menu",
+    "body_plural": "Menus",
+    "body_singular": "Menu",
     "commenting": false,
     "description": null,
     "engagement_insights": false,
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "test",
+            "api_id": "title",
             "appearance": "single_line",
-            "body": "Test",
+            "body": "Title",
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",
@@ -29,18 +29,17 @@
         },
         {
             "accept_restrictions": null,
-            "api_id": "dafsg",
+            "api_id": "area",
             "appearance": "single_line",
-            "body": "dafsg",
+            "body": "Area",
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",
             "fieldstate": "read_write",
-            "framed": false,
             "image": null,
             "no_html": false,
             "openai_options": {
-                "translate": "1"
+                "translate": "0"
             },
             "required": false,
             "seo_description": null,
@@ -50,32 +49,23 @@
             "unique": false
         },
         {
-            "a_b_testing": true,
-            "api_id": "stack",
-            "body": "Stack",
+            "api_id": "nes",
+            "body": "NES",
+            "component": {
+                "api_id": "NestedComponentWithBakingProducts",
+                "label": "Component",
+                "ref": "60e45dfc-89f8-499e-bb92-ad24c1ad3d67"
+            },
             "description": null,
             "disable_editing": false,
             "field_state": null,
             "image": null,
-            "max": "1000",
-            "min": "0",
-            "personalization": true,
             "required": false,
-            "type": "Stack",
-            "types": [
-                {
-                    "allow_group": false,
-                    "allow_new": true,
-                    "body_singular": "Article",
-                    "label": "ContentModel",
-                    "position": 1,
-                    "ref": "bdb42bca-1524-42d0-8929-7a6820e92dbd"
-                }
-            ]
+            "type": "Component"
         }
     ],
     "label": "ContentModel",
-    "ref": "7c97068e-53ea-4bf8-bd66-8725c807f25b",
+    "ref": "07c53c38-7728-4c0b-aa3f-dc9ee1202df9",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,
