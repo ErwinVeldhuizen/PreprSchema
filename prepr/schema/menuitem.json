@@ -1,0 +1,141 @@
+{
+    "body": "Menu item",
+    "body_plural": "MenuItems",
+    "body_singular": "MenuItem",
+    "commenting": true,
+    "description": "For menu items in a navigation",
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": true,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "api_id": "link_to_page",
+            "appearance": "auto_suggest",
+            "body": "Link to page",
+            "description": "This value decides which internal page to open.",
+            "disable_editing": false,
+            "field_state": null,
+            "group": false,
+            "image": null,
+            "max": "1",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Page",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "73a4f214-33fe-46ae-9de8-5a353820bbb4"
+                }
+            ]
+        },
+        {
+            "accept": [
+                "link"
+            ],
+            "accept_restrictions": null,
+            "api_id": "link_to_external_page",
+            "appearance": "html_editor",
+            "body": "Link to external page",
+            "description": "For external pages, e.g. the Prepr sign up page.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "description",
+            "appearance": "single_line",
+            "body": "Description",
+            "description": "Short description shown on the navigation",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept": [
+                "file"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "icon",
+            "body": "Icon",
+            "description": "Choose an icon that clearly matches the menu item",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1",
+            "min": "0",
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "api_id": "children",
+            "appearance": "modal",
+            "body": "Children",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "group": false,
+            "image": null,
+            "max": "99",
+            "min": "0",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "MenuItem",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "ae61767c-c278-4020-8b27-755df56565e4"
+                }
+            ]
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "ae61767c-c278-4020-8b27-755df56565e4",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": false,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

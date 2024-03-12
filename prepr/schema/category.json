@@ -1,0 +1,49 @@
+{
+    "body": "Category",
+    "body_plural": "Categorys",
+    "body_singular": "Category",
+    "commenting": false,
+    "description": "Categories for articles, e.g. Health, Seasonal",
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "body": "Slug",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Slug"
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "50c700a0-c2a9-4aff-8fff-c0f6333a42e6",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": "{title}",
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

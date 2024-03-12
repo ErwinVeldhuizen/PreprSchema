@@ -1,0 +1,9 @@
+{
+    "api_id": "SectionBlogContent",
+    "body": "Section - Blog Content",
+    "description": null,
+    "fields": null,
+    "icon": "fas fa-blog",
+    "label": "Component",
+    "ref": "d22bd057-78e6-403b-9f74-067cc04033c1"
+}

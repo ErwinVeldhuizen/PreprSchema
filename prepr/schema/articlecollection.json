@@ -1,0 +1,102 @@
+{
+    "api_id": "ArticleCollection",
+    "body": "Article collection",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "heading",
+            "appearance": "single_line",
+            "body": "Heading",
+            "description": "Headline for group of articles being displayed.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "description",
+            "appearance": "single_line",
+            "body": "Description",
+            "description": "Short description to explain the group of articles displayed.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_label",
+            "appearance": "single_line",
+            "body": "CTA label",
+            "description": "A call to action label for these articles, e.g. To open the detailed list.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "cta_url",
+            "appearance": "single_line",
+            "body": "CTA URL",
+            "description": "A hardcoded URL link to open another page.",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "api_id": "articles",
+            "appearance": "modal",
+            "body": "Articles",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "group": false,
+            "image": null,
+            "max": "3",
+            "min": "1",
+            "required": false,
+            "type": "ContentReference",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Article",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "37283e74-d8b5-4fd8-87ec-81409fc74aa2"
+                }
+            ]
+        }
+    ],
+    "icon": "fas fa-newspaper",
+    "label": "Component",
+    "ref": "82867a3a-0d80-4be9-85c0-cca981679444"
+}

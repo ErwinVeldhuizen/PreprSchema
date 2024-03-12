@@ -1,0 +1,29 @@
+{
+    "api_id": "SectionBenefits",
+    "body": "Section - Benefits",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        }
+    ],
+    "icon": "fas fa-arrow-trend-up",
+    "label": "Component",
+    "ref": "b975a552-ea85-4d75-920d-1716b64fa480"
+}

@@ -1,0 +1,98 @@
+{
+    "body": "Section - Car Recommendations",
+    "body_plural": "SectionCarRecommendationss",
+    "body_singular": "SectionCarRecommendations",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "internal_title",
+            "appearance": "single_line",
+            "body": "Internal Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "heading",
+            "appearance": "single_line",
+            "body": "Heading",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text"
+        },
+        {
+            "api_id": "cta_button",
+            "body": "CTA Button",
+            "component": {
+                "api_id": "CTAButton",
+                "label": "Component",
+                "ref": "fe78f71c-f6bc-4399-9bfa-973c2ed6c1ba"
+            },
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "required": false,
+            "type": "Component"
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "cars",
+            "body": "Cars",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "Car",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "d0216909-ef08-41da-81b3-471a5eed1c9a"
+                }
+            ]
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "b4adf42c-1a38-4f55-8b59-146eefd7c4a3",
+    "review_urls": null,
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}
