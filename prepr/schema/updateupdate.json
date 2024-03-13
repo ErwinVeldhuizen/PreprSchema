@@ -1,5 +1,6 @@
 {
     "body": "Update met een update",
+    "body_plural": "UpdateUpdates",
     "body_singular": "UpdateUpdate",
     "commenting": false,
     "description": null,
