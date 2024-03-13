@@ -1,0 +1,41 @@
+{
+    "body": "Model zonder workflow",
+    "body_plural": "ModelZonderWorkflows",
+    "body_singular": "ModelZonderWorkflow",
+    "commenting": false,
+    "description": null,
+    "engagement_insights": false,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
+            "type": "Text",
+            "unique": false
+        }
+    ],
+    "label": "ContentModel",
+    "ref": "17a5481c-cccb-4b05-afb2-2214a5778b93",
+    "review_urls": null,
+    "scheduling": false,
+    "seo_score": false,
+    "single_instance": false,
+    "slug": null,
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": false,
+    "workflow": true
+}

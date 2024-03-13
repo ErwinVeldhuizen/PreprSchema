@@ -38,7 +38,6 @@
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",
-            "fieldstate": "read_write",
             "image": null,
             "no_html": false,
             "openai_options": {
@@ -59,7 +58,6 @@
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",
-            "fieldstate": "read_write",
             "image": null,
             "no_html": false,
             "openai_options": {
@@ -78,7 +76,6 @@
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",
-            "fieldstate": "read_write",
             "image": null,
             "options": [
                 {
@@ -99,14 +96,13 @@
             "description": null,
             "disable_editing": false,
             "field_state": "read_write",
-            "fieldstate": "read_write",
             "image": null,
             "max": "1000",
             "min": "0",
             "remote_source": {
-                "body_singular": "PreprExampleShop",
+                "body_singular": "BakingFilters",
                 "label": "ContentModel",
-                "ref": "8ce87a70-0d01-4c85-a063-9f004a7f490d"
+                "ref": "59d2e9f6-076d-4f37-a5b1-4b54bef78d03"
             },
             "required": false,
             "type": "ContentIntegration"

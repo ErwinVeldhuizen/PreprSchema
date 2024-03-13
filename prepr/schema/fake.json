@@ -10,7 +10,6 @@
             "description": null,
             "disable_editing": false,
             "field_state": "read_only",
-            "fieldstate": "read_only",
             "image": null,
             "no_html": false,
             "openai_options": "null",
