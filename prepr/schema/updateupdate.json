@@ -1,5 +1,4 @@
 {
-    "body": "Update met een update",
     "body_plural": "UpdateUpdates",
     "body_singular": "UpdateUpdate",
     "commenting": false,
@@ -24,7 +23,6 @@
             "seo_description": null,
             "seo_title": true,
             "title": true,
-            "type": "Text",
             "unique": false
         },
         {
@@ -113,7 +111,6 @@
         }
     ],
     "label": "ContentModel",
-    "ref": "4cbf6807-7ba3-469d-878e-f5e5b8018690",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,
