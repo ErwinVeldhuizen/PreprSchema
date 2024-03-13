@@ -7,6 +7,30 @@
     "engagement_insights": false,
     "fields": [
         {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
+            "description": null,
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "UpdateUpdate",
+                    "label": "ContentModel",
+                    "position": 1,
+                    "ref": "4cbf6807-7ba3-469d-878e-f5e5b8018690"
+                }
+            ]
+        },
+        {
             "accept_restrictions": null,
             "api_id": "name",
             "appearance": "single_line",
@@ -47,30 +71,6 @@
             "title": null,
             "type": "Text",
             "unique": false
-        },
-        {
-            "a_b_testing": true,
-            "api_id": "stack",
-            "body": "Stack",
-            "description": null,
-            "disable_editing": false,
-            "field_state": null,
-            "image": null,
-            "max": "1000",
-            "min": "0",
-            "personalization": true,
-            "required": false,
-            "type": "Stack",
-            "types": [
-                {
-                    "allow_group": false,
-                    "allow_new": true,
-                    "body_singular": "UpdateUpdate",
-                    "label": "ContentModel",
-                    "position": 1,
-                    "ref": "4cbf6807-7ba3-469d-878e-f5e5b8018690"
-                }
-            ]
         },
         {
             "api_id": "lijstje",
