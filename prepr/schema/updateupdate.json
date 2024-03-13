@@ -1,5 +1,5 @@
 {
-    "body": "Update met WIJZIGING",
+    "body": "Update met een update",
     "body_plural": "UpdateUpdates",
     "body_singular": "UpdateUpdate",
     "commenting": false,
@@ -49,27 +49,6 @@
             "unique": false
         },
         {
-            "api_id": "lijstje",
-            "body": "Lijstje",
-            "description": null,
-            "disable_editing": false,
-            "field_state": "read_write",
-            "fieldstate": "read_write",
-            "image": null,
-            "options": [
-                {
-                    "display": "One",
-                    "value": "One"
-                },
-                {
-                    "display": "Two",
-                    "value": "Two"
-                }
-            ],
-            "required": false,
-            "type": "List"
-        },
-        {
             "a_b_testing": true,
             "api_id": "stack",
             "body": "Stack",
@@ -92,6 +71,27 @@
                     "ref": "4cbf6807-7ba3-469d-878e-f5e5b8018690"
                 }
             ]
+        },
+        {
+            "api_id": "lijstje",
+            "body": "Lijstje",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "options": [
+                {
+                    "display": "One",
+                    "value": "One"
+                },
+                {
+                    "display": "Two",
+                    "value": "Two"
+                }
+            ],
+            "required": false,
+            "type": "List"
         },
         {
             "api_id": "shop",
