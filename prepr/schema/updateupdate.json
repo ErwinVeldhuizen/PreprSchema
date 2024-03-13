@@ -92,6 +92,24 @@
                     "ref": "4cbf6807-7ba3-469d-878e-f5e5b8018690"
                 }
             ]
+        },
+        {
+            "api_id": "shop",
+            "body": "Shop",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "fieldstate": "read_write",
+            "image": null,
+            "max": "1000",
+            "min": "0",
+            "remote_source": {
+                "body_singular": "PreprExampleShop",
+                "label": "ContentModel",
+                "ref": "8ce87a70-0d01-4c85-a063-9f004a7f490d"
+            },
+            "required": false,
+            "type": "ContentIntegration"
         }
     ],
     "label": "ContentModel",
