@@ -25,6 +25,26 @@
             "title": true,
             "type": "Text",
             "unique": false
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "description",
+            "appearance": "single_line",
+            "body": "Description",
+            "description": null,
+            "disable_editing": false,
+            "field_state": "read_write",
+            "image": null,
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "seo_description": null,
+            "seo_title": null,
+            "title": null,
+            "type": "Text",
+            "unique": false
         }
     ],
     "label": "ContentModel",
