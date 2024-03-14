@@ -7,7 +7,7 @@
     "engagement_insights": false,
     "fields": [
         {
-            "a_b_testing": true,
+            "a_b_testing": false,
             "api_id": "stack",
             "body": "Stack",
             "description": null,
