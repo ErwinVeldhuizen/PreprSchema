@@ -41,7 +41,6 @@
         },
         {
             "accept": [
-                "file",
                 "photo"
             ],
             "allow_align": false,
