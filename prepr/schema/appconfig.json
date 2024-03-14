@@ -8,23 +8,6 @@
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "app_name",
-            "appearance": "single_line",
-            "body": "App name",
-            "description": "Name of the web app that appears in searches",
-            "disable_editing": false,
-            "field_state": null,
-            "image": null,
-            "no_html": false,
-            "openai_options": "null",
-            "required": true,
-            "seo_description": null,
-            "seo_title": true,
-            "title": true,
-            "type": "Text"
-        },
-        {
-            "accept_restrictions": null,
             "api_id": "copyright_info",
             "appearance": "single_line",
             "body": "Copyright info",
@@ -55,6 +38,23 @@
             "seo_description": null,
             "seo_title": null,
             "title": null,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "app_name",
+            "appearance": "single_line",
+            "body": "App name",
+            "description": "Name of the web app that appears in searches",
+            "disable_editing": false,
+            "field_state": null,
+            "image": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": true,
+            "seo_description": null,
+            "seo_title": true,
+            "title": true,
             "type": "Text"
         },
         {
