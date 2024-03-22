@@ -5,67 +5,34 @@
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "title",
+            "api_id": "seo_title",
             "appearance": "single_line",
-            "body": "Meta title",
-            "description": "The title that the front end will use for SEO and social media.",
-            "disable_editing": false,
-            "field_state": null,
-            "image": null,
-            "max": "60",
+            "body": "SEO title",
+            "description": null,
+            "field_state": "read_write",
             "no_html": false,
-            "openai_options": "null",
+            "openai_options": {
+                "translate": "1"
+            },
             "required": false,
-            "seo_description": null,
-            "seo_title": null,
-            "title": null,
             "type": "Text"
         },
         {
             "accept_restrictions": null,
-            "api_id": "description",
-            "appearance": "single_line",
-            "body": "Meta description",
-            "description": "Used by the front end for SEO and Social media",
-            "disable_editing": false,
-            "field_state": null,
-            "image": null,
-            "max": "165",
-            "no_html": false,
-            "openai_options": "null",
-            "required": false,
-            "seo_description": null,
-            "seo_title": null,
-            "title": null,
-            "type": "Text"
-        },
-        {
-            "accept": [
-                "photo"
-            ],
-            "allow_align": false,
-            "allow_caption": false,
-            "api_id": "social_media_image",
-            "body": "Social media image",
+            "api_id": "seo_meta_description",
+            "appearance": "textarea",
+            "body": "SEO meta description",
             "description": null,
-            "disable_editing": false,
-            "field_state": null,
-            "image": null,
-            "max": "1",
-            "min": "1",
-            "presets": [
-                {
-                    "height": "400",
-                    "name": "Square",
-                    "width": "400"
-                }
-            ],
-            "presets_change_required": true,
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
             "required": false,
-            "type": "Asset"
+            "type": "Text"
         }
     ],
-    "icon": "fas fa-magnifying-glass",
+    "icon": "far fa-address-card",
     "label": "Component",
-    "ref": "86e0e4c4-adf9-4091-a8e2-77ba18a95fcf"
+    "ref": "a9947a33-f584-430f-9f45-773e74555149"
 }

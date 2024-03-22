@@ -1,0 +1,60 @@
+{
+    "api_id": "CallToAction",
+    "body": "Call to Action",
+    "description": null,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "action_name",
+            "appearance": "single_line",
+            "body": "Action name",
+            "description": null,
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "accept_restrictions": null,
+            "api_id": "action_url",
+            "appearance": "single_line",
+            "body": "Action URL",
+            "description": null,
+            "field_state": "read_write",
+            "no_html": false,
+            "openai_options": {
+                "translate": "1"
+            },
+            "required": false,
+            "type": "Text"
+        },
+        {
+            "api_id": "opens",
+            "body": "Opens",
+            "description": null,
+            "field_state": "read_write",
+            "options": [
+                {
+                    "display": "Blank",
+                    "value": "Blank"
+                },
+                {
+                    "display": "Self",
+                    "value": "Self"
+                },
+                {
+                    "display": "Top",
+                    "value": "Top"
+                }
+            ],
+            "required": false,
+            "type": "List"
+        }
+    ],
+    "icon": "fal fa-acorn",
+    "label": "Component",
+    "ref": "11412db5-813e-4c6f-aaa2-34dc3e3d6a12"
+}
