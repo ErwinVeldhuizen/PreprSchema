@@ -1,0 +1,38 @@
+{
+    "body": "Dag van de week",
+    "body_singular": "DagVanDeWeek",
+    "enum": [
+        {
+            "display": "Ma",
+            "value": "MA"
+        },
+        {
+            "display": "DI",
+            "value": "DI"
+        },
+        {
+            "display": "Wo",
+            "value": "WO"
+        },
+        {
+            "display": "Do",
+            "value": "DO"
+        },
+        {
+            "display": "Vr",
+            "value": "VR"
+        },
+        {
+            "display": "Za",
+            "value": "ZA"
+        },
+        {
+            "display": "Zo",
+            "value": "ZO"
+        }
+    ],
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "25971955-71fa-442c-84d4-4c656757a211",
+    "type": "enum"
+}

@@ -1,0 +1,22 @@
+{
+    "body": "Opens",
+    "body_singular": "Opens",
+    "enum": [
+        {
+            "display": "Blank",
+            "value": "Blank"
+        },
+        {
+            "display": "Self",
+            "value": "Self"
+        },
+        {
+            "display": "Top",
+            "value": "Top"
+        }
+    ],
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "c901e612-34fa-4e0e-b299-800cfbe22d91",
+    "type": "enum"
+}

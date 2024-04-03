@@ -5,34 +5,56 @@
     "fields": [
         {
             "accept_restrictions": null,
-            "api_id": "seo_title",
+            "api_id": "title",
             "appearance": "single_line",
-            "body": "SEO title",
-            "description": null,
-            "field_state": "read_write",
+            "body": "Meta title",
+            "description": "The title that the front end will use for SEO and social media.",
+            "field_state": null,
+            "max": "60",
             "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
+            "openai_options": "null",
             "required": false,
             "type": "Text"
         },
         {
             "accept_restrictions": null,
-            "api_id": "seo_meta_description",
-            "appearance": "textarea",
-            "body": "SEO meta description",
-            "description": null,
-            "field_state": "read_write",
+            "api_id": "description",
+            "appearance": "single_line",
+            "body": "Meta description",
+            "description": "Used by the front end for SEO and Social media",
+            "field_state": null,
+            "max": "165",
             "no_html": false,
-            "openai_options": {
-                "translate": "1"
-            },
+            "openai_options": "null",
             "required": false,
             "type": "Text"
+        },
+        {
+            "accept": [
+                "file",
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "api_id": "social_media_image",
+            "body": "Social media image",
+            "description": null,
+            "field_state": null,
+            "max": "1",
+            "min": "1",
+            "presets": [
+                {
+                    "height": "400",
+                    "name": "Square",
+                    "width": "400"
+                }
+            ],
+            "presets_change_required": true,
+            "required": false,
+            "type": "Asset"
         }
     ],
-    "icon": "far fa-address-card",
+    "icon": "fas fa-magnifying-glass",
     "label": "Component",
     "ref": "a9947a33-f584-430f-9f45-773e74555149"
 }

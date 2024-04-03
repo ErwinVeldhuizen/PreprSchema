@@ -13,26 +13,10 @@
         {
             "display": "Wednesday",
             "value": "WEDNESDAY"
-        },
-        {
-            "display": "Thursday",
-            "value": "THURSDAY"
-        },
-        {
-            "display": "Friday",
-            "value": "FRIDAY"
-        },
-        {
-            "display": "Saturday",
-            "value": "SATURDAY"
-        },
-        {
-            "display": "Sunday",
-            "value": "SUNDAY"
         }
     ],
     "label": "ContentModel",
     "localization": true,
-    "ref": "c33de2a7-e088-461d-9e38-a335f05c5b40",
+    "ref": "4df3de43-0335-4fcf-b2cf-fd68d7c438fb",
     "type": "enum"
 }

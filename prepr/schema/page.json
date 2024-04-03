@@ -1,0 +1,122 @@
+{
+    "body": "Page",
+    "body_plural": "Pages",
+    "body_singular": "Page",
+    "commenting": true,
+    "description": "For pages such as homepages or promo pages.",
+    "engagement_insights": true,
+    "fields": [
+        {
+            "accept_restrictions": null,
+            "api_id": "title",
+            "appearance": "single_line",
+            "body": "Title",
+            "description": null,
+            "field_state": null,
+            "no_html": false,
+            "openai_options": "null",
+            "required": true,
+            "seo_title": true,
+            "title": true,
+            "type": "Text"
+        },
+        {
+            "body": "Slug",
+            "description": "The slug is generated automatically. You can change the slug, as long as it is unique.",
+            "field_state": null,
+            "required": false,
+            "type": "Slug"
+        },
+        {
+            "a_b_testing": true,
+            "api_id": "stack",
+            "body": "Stack",
+            "description": null,
+            "field_state": null,
+            "max": "99",
+            "min": "0",
+            "personalization": true,
+            "required": false,
+            "type": "Stack",
+            "types": [
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "PageHeader",
+                    "label": "Component",
+                    "position": 1,
+                    "ref": "ae9a2ae1-abf2-4207-87fb-557e4cc2f36c"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ImageAndText",
+                    "label": "Component",
+                    "position": 2,
+                    "ref": "f3007010-ab2e-4d68-a139-11a21da22579"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": true,
+                    "body_singular": "CallToAction",
+                    "label": "ContentModel",
+                    "position": 3,
+                    "ref": "17172e9b-8e5b-4b1f-910b-1cadb0530a44"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ArticleCollection",
+                    "label": "Component",
+                    "position": 4,
+                    "ref": "53e0b98a-ffea-4579-87ce-af5359f5dd06"
+                },
+                {
+                    "allow_group": false,
+                    "allow_new": false,
+                    "api_id": "ProductCollection",
+                    "label": "Component",
+                    "position": 5,
+                    "ref": "62c21036-470b-4977-9a11-975be1ebbd15"
+                }
+            ]
+        },
+        {
+            "appearance": "open",
+            "body": "SEO",
+            "description": null,
+            "type": "Divider"
+        },
+        {
+            "api_id": "seo",
+            "body": "SEO",
+            "component": {
+                "api_id": "SEO",
+                "label": "Component",
+                "ref": "a9947a33-f584-430f-9f45-773e74555149"
+            },
+            "description": null,
+            "field_state": null,
+            "framed": true,
+            "required": false,
+            "type": "Component"
+        }
+    ],
+    "label": "ContentModel",
+    "localization": true,
+    "ref": "f9412cb4-4fcf-4290-a621-c792d9f89345",
+    "review_urls": [
+        {
+            "body": "View on example site",
+            "url": "https:\/\/patterns.prepr.io\/page\/{slug}?token={access_token}"
+        }
+    ],
+    "scheduling": true,
+    "seo_score": true,
+    "single_instance": false,
+    "slug": "{title}",
+    "slug_postfix": true,
+    "type": "model",
+    "versioning": true,
+    "workflow": true
+}

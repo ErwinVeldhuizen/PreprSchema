@@ -35,23 +35,11 @@
             "api_id": "opens",
             "body": "Opens",
             "description": null,
+            "enum": null,
             "field_state": "read_write",
-            "options": [
-                {
-                    "display": "Blank",
-                    "value": "Blank"
-                },
-                {
-                    "display": "Self",
-                    "value": "Self"
-                },
-                {
-                    "display": "Top",
-                    "value": "Top"
-                }
-            ],
+            "options": "{\"0\":{\"value\":\"Blank\",\"display\":\"Blank\"},\"1\":{\"value\":\"Self\",\"display\":\"Self\"},\"2\":{\"value\":\"Top\",\"display\":\"Top\"}}",
             "required": false,
-            "type": "List"
+            "type": "Enum"
         }
     ],
     "icon": "fal fa-acorn",

@@ -1,16 +1,44 @@
 {
-    "body": "Support",
-    "body_plural": "Supports",
-    "body_singular": "Support",
+    "body": "1asse",
+    "body_plural": "Asses",
+    "body_singular": "Asse",
     "commenting": false,
     "description": null,
     "engagement_insights": false,
     "fields": [
         {
+            "accept": [
+                "photo"
+            ],
+            "allow_align": false,
+            "allow_caption": false,
+            "allow_multiple": true,
+            "api_id": "fwerdg",
+            "body": "fwerdg",
+            "description": null,
+            "field_state": "read_write",
+            "max": "1000",
+            "min": "0",
+            "presets_change_required": false,
+            "required": false,
+            "type": "Asset"
+        },
+        {
+            "accept": [
+                "heading",
+                "bold",
+                "italic",
+                "underline",
+                "unordered-list",
+                "ordered-list",
+                "link",
+                "table",
+                "alignment"
+            ],
             "accept_restrictions": null,
-            "api_id": "title",
-            "appearance": "single_line",
-            "body": "Title",
+            "api_id": "editor",
+            "appearance": "html_editor",
+            "body": "Editor",
             "description": null,
             "field_state": "read_write",
             "no_html": false,
@@ -25,23 +53,23 @@
         },
         {
             "accept_restrictions": null,
-            "api_id": "text",
+            "api_id": "tada",
             "appearance": "single_line",
-            "body": "Text",
+            "body": "Tada",
             "description": null,
             "field_state": "read_write",
             "no_html": false,
             "openai_options": {
                 "translate": "1"
             },
-            "required": true,
+            "required": false,
             "type": "Text",
             "unique": false
         }
     ],
     "label": "ContentModel",
     "localization": true,
-    "ref": "664b82a6-4962-40fa-878b-7d80cd33d0ab",
+    "ref": "51ae4dc2-310e-46eb-a1ff-42ad103c4fa2",
     "review_urls": null,
     "scheduling": true,
     "seo_score": true,
